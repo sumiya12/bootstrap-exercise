@@ -18,72 +18,110 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <div class="row bg-secondary m-1 p-1">
-        <div class="col-2 d-flex">
-          <div class="bg-info">logo</div>
-          <div class="bg-danger">name</div>
+    <div class="container-md">
+      <div class="row-12 d-flex justify-content-around bg-info rounded m-1">
+        <div class="col-2 d-flex m-1">
+          <div class="col-6 bg-warning rounded">logo</div>
+          <div class="col-6 bg-danger rounded">name</div>
         </div>
-        <div class="col-10 d-flex flex-fill justify-content-between">
-          <div class="col-9 d-block bg-warning">menus</div>
-          <div class="col-3 bg-success">dropdown</div>
+        <div
+          class="d-flex col-9 justify-content-end justify-content-md-between"
+        >
+          <div
+            class="col-9 d-none d-md-inline bg-warning rounded my-1 flex-fill"
+          >
+            menus
+          </div>
+          <div
+            class="col-2 d-flex justify-content-sm-end bg-secondary rounded my-1"
+          >
+            dropdown
+          </div>
         </div>
       </div>
-      <div class="container d-flex">
-        <div class="row-2 h-100 d-flex align-items-strech m-1">
-          <div class="bg-secondary p-2">
-            <img src="/1644402020387 (1).jpg" alt="" class="rounded mx-auto" />
-            <ul>
-              <li>links</li>
-              <li>links</li>
-              <li>links</li>
-            </ul>
+      <div
+        class="row-12 text-center d-xs-block d-sm-block d-md-none bg-success rounded m-1"
+      >
+        menus
+      </div>
+      <div class="row-12 bg-secondary align-center rounded m-1 d-md-none">
+        <img
+          src="/bootstrap-exercise/1644402020387 (1).jpg"
+          alt=""
+          class="rounded-circle mx-auto d-block p-1"
+        />
+        <ul class="list-group text-center">
+          <li class="list-group-item bg-info">links</li>
+          <li class="list-group-item bg-info">links</li>
+          <li class="list-group-item bg-info">links</li>
+        </ul>
+      </div>
+      <div
+        class="row-12 bg-secondary justify-content-around rounded m-1 d-none d-md-flex"
+      >
+        <img
+          src="/bootstrap-exercise/1644402020387 (1).jpg"
+          alt=""
+          class="rounded-circle mx-auto justify-content-around d-inline p-1"
+        />
+        <ul class="text-center d-flex col justify-content-around m-1 h-25">
+          <li class="list-item bg-info d-flex m-1 rounded col">links</li>
+          <li class="list-item bg-info d-flex m-1 rounded col">links</li>
+          <li class="list-item bg-info d-flex m-1 rounded col">links</li>
+        </ul>
+      </div>
+      <div class="row-12 bg-success rounded m-1 justify-content-center p-2">
+        <div>
+          <div class="bg-info w-25 rounded text-center mx-auto">
+            title
+            <div><p class="bg-secondary rounded">image</p></div>
+          </div>
+          <div class="bg-info w-25 rounded text-center mx-auto">
+            title
+            <div><p class="bg-secondary rounded mx-auto">image</p></div>
+          </div>
+          <div class="bg-info w-25 rounded text-center mx-auto">
+            title
+            <div><p class="bg-secondary rounded">image</p></div>
+          </div>
+          <div class="bg-info w-25 rounded text-center mx-auto">
+            title
+            <div><p class="bg-secondary rounded">image</p></div>
           </div>
         </div>
-        <div class="row-10 bg-secondary my-1">
-          <div class="d-block p-2">
-            <div>
-              <div class="d-block">title</div>
-              <img
-                src="/1644402020387 (1).jpg"
-                alt=""
-                class="rounded mx-auto"
-              />
-            </div>
-            <div>
-              <div class="d-block">title</div>
-              <img
-                src="/1644402020387 (1).jpg"
-                alt=""
-                class="rounded mx-auto"
-              />
-            </div>
-            <div>
-              <div class="d-block">title</div>
-              <img
-                src="/1644402020387 (1).jpg"
-                alt=""
-                class="rounded mx-auto"
-              />
-            </div>
+        <div class="contaianer m-1 mx-auto bg-danger rounded">
+          <div>
+            <img
+              src="/bootstrap-exercise/1644402020387 (1).jpg"
+              alt=""
+              class="rounded-circle mx-auto d-block p-1"
+            />
+          </div>
+          <div class="bg-info rounded m-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolor
+            non cumque nihil. Aliquid saepe labore nobis rerum fugit fugiat
+            quidem odio porro incidunt? Velit molestias praesentium sit
+            laboriosam nisi.
+          </div>
+          <div class="bg-warning rounded m-1">decription text</div>
+        </div>
+        <div class="container bg-info rounded">
+          <div class="mx-auto text-center">setting</div>
+          <div>
+            <div>toggle</div>
+            <div>select item</div>
+            <div>input</div>
+          </div>
+          <div class="d-flex justify-content-around">
+            <div class="bg-warning rounded m-1">cancel button</div>
+            <div class="bg-warning rounded m-1">save button</div>
           </div>
         </div>
-        <div class="bg-secondary my-1 d-flex">
-          <div class="row bg-secondary">
-            <div class="row bg-light m-3">
-              <img
-                src="/1644402020387 (1).jpg"
-                class="bg-light w-25 h-25 d-block"
-                alt=""
-              />
-            </div>
-            <div class="bg-secondary m-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              distinctio recusandae labore voluptate laboriosam magnam quae aut
-              eius aliquam explicabo.
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="row-12 bg-success rounded m-1 text-center">
+        <div>footertext 1</div>
+        <div>footertext 2</div>
+        <div class="m-5">footertext 3</div>
       </div>
     </div>
   </body>
